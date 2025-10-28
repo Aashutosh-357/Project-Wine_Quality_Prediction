@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project implements a robust **Tuned Random Forest Classifier** to predict the quality of White Portuguese 'Vinho Verde' Wine. The focus was on optimizing model performance through rigorous hyperparameter tuning, which resulted in a **12% improvement** over the baseline model.
+This project implements a robust **Tuned Random Forest Classifier** to predict the quality of White Wine. The focus was on optimizing model performance through rigorous hyperparameter tuning, which resulted in a **6% improvement** over the baseline model.
 
-The final model, achieving **~89% accuracy**, is deployed within a lightweight Flask web application. Users can input various physicochemical properties (like alcohol content, density, and pH) and instantly receive a prediction of whether the wine is "Good" or "Bad."
+The final model, achieving **~81% accuracy**, is deployed within a lightweight Flask web application. Users can input various physicochemical properties (like alcohol content, density, and pH) and instantly receive a prediction of whether the wine is "Good" or "Bad."
 
 The application is deployed end-to-end on Render, demonstrating full-stack ML deployment skills.
 
@@ -12,7 +12,7 @@ The application is deployed end-to-end on Render, demonstrating full-stack ML de
 
 ## Key Features
 
-* **Optimized ML Model:** Utilizes a **Random Forest Classifier** where performance was boosted by **12%** via hyperparameter tuning and cross-validation, achieving a final accuracy of **~89%**.
+* **Optimized ML Model:** Utilizes a **Random Forest Classifier** where performance was boosted by **6%** via hyperparameter tuning and cross-validation, achieving a final accuracy of **~81%**.
 * **Data Analysis Focus:** Trained on the UCI Wine Quality Dataset, focusing on five critical features (volatile acidity, chlorides, density, pH, and alcohol) identified through exploratory data analysis.
 * **Web Interface:** A simple, responsive user-friendly Flask application with an HTML form (`index.html`) for real-time input and inference.
 * **Production Deployment:** Fully containerized and deployed on Render (PaaS) for public access and Continuous Deployment practice.
@@ -51,8 +51,8 @@ The final Tuned Random Forest Classifier was rigorously evaluated on the held-ou
 
 | Metric | Baseline Score | **Final Tuned Score** | Notes |
 | :--- | :--- | :--- | :--- |
-| **Accuracy** | ~77% (approx.) | $\mathbf{\approx 89\%}$ | **12% performance improvement** achieved through tuning. |
-| F1-Score (Weighted) | N/A | $\mathbf{\approx 88\%}$ | High F1 score confirms robust performance on both Good and Bad classes. |
+| **Accuracy** | ~75% (approx.) | $\mathbf{\approx 81\%}$ | **6% performance improvement** achieved through tuning. |
+| F1-Score (Weighted) | N/A | $\mathbf{\approx 82\%}$ | High F1 score confirms robust performance on both Good and Bad classes. |
 
 ---
 
