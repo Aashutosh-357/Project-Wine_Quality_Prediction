@@ -86,12 +86,11 @@ You can run this application on your local machine by following these steps:
 
 ---
 
-## ☁️ Deployment Status
-
 This application is set up for Continuous Deployment via GitHub to Render.
 
-* **Deployment Platform:** Render
-* **Live Link:** **[Insert your live Render URL here after successful deployment]**
+Deployment Platform: Render
+
+**Live Link**: https://wine-quality-predictor-nkle.onrender.com/ 🚀
 
 ---
 
