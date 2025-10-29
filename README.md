@@ -33,15 +33,15 @@ The application is deployed end-to-end on Render, demonstrating full-stack ML de
 
 ## 📂 Project Structure
 
-The repository contains the following critical files:
-Project-Wine_Quality_Prediction/
-├── app.py                  # Main Flask application, loads model, handles routes, and prediction logic.
-├── index.html              # Frontend HTML for the user input form.
-├── requirements.txt        # Lists all necessary Python dependencies for the server.
-├── Procfile                # Specifies the startup command for the web server (Gunicorn).
-├── runtime.txt             # Specifies the required Python version (e.g., python-3.12.3).
-├── Tuned_RandomForest.pkl  # The serialized Random Forest model (Tuned_RandomForest.pkl).
-└── StandardScaler.pkl      # The fitted Standard Scaler object.
+The repository contains the following critical files:<br>
+Project-Wine_Quality_Prediction/<br>
+├── app.py                  # Main Flask application, loads model, handles routes, and prediction logic.<br>
+├── index.html              # Frontend HTML for the user input form.<br>
+├── requirements.txt        # Lists all necessary Python dependencies for the server.<br>
+├── Procfile                # Specifies the startup command for the web server (Gunicorn).<br>
+├── runtime.txt             # Specifies the required Python version (e.g., python-3.12.3).<br>
+├── Tuned_RandomForest.pkl  # The serialized Random Forest model (Tuned_RandomForest.pkl).<br>
+└── StandardScaler.pkl      # The fitted Standard Scaler object.<br>
 
 ---
 
